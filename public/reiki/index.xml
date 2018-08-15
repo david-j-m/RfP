@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reiki on Reiki for Peace &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;يكي للسلام</title>
-    <link>/reiki/</link>
+    <link>rfp/reiki/</link>
     <description>Recent content in Reiki on Reiki for Peace &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;يكي للسلام</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/reiki/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="rfp/reiki/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

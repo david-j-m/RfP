@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>First Degree Reiki Course on Reiki for Peace &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;يكي للسلام</title>
-    <link>/first-degree-reiki-course/</link>
+    <link>rfp/first-degree-reiki-course/</link>
     <description>Recent content in First Degree Reiki Course on Reiki for Peace &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;يكي للسلام</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/first-degree-reiki-course/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="rfp/first-degree-reiki-course/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
