@@ -1,0 +1,32 @@
+theme = "blackburn"
+languageCode = "en-us"
+baseurl = "rfp"
+title = "Reiki for Peace &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;يكي للسلام"
+
+
+# Menu links that appear on the left sidebar
+
+  [[menu.main]]
+  name = "Mission Statement"
+  url = "/mission-statement/"
+  weight = "5"
+
+[[menu.main]]
+  name = "Reiki"
+  url = "/reiki/"
+  weight = "10"
+
+[[menu.main]]
+  name = "How Reiki Works"
+  url = "/how-reiki-works/"
+  weight = "20"
+
+[[menu.main]]
+  name = "How to get Reiki"
+  url = "/how-to-get-reiki/"
+  weight = "30"
+
+[[menu.main]]
+  name = "First Degree Reiki Course"
+  url = "/first-degree-reiki-course/"
+  weight = "40"

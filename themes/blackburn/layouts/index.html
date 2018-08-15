@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+    
+<div class="header">
+  <h1>{{ .Site.Title | safeHTML }}</h1>
+  <img style="position: absolute; top: 24px; right: 34vw" src="/img/dove.png" alt="peace dove" />
+</div>
+<div class="content">
+  {{ .Content }}
+</div>
+
+{{ partial "footer.html" . }}
