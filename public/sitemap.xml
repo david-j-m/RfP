@@ -3,28 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>rfp/pages/how-to-get-reiki/</loc>
+  </url>
+  
+  <url>
     <loc>rfp/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>rfp/first-degree-reiki-course/</loc>
+    <loc>rfp/pages/first-degree-reiki-course/</loc>
   </url>
   
   <url>
-    <loc>rfp/how-reiki-works/</loc>
+    <loc>rfp/pages/how-reiki-works/</loc>
   </url>
   
   <url>
-    <loc>rfp/how-to-get-reiki/</loc>
+    <loc>rfp/pages/mission-statement/</loc>
   </url>
   
   <url>
-    <loc>rfp/mission-statement/</loc>
+    <loc>rfp/pages/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>rfp/reiki/</loc>
+    <loc>rfp/pages/reiki/</loc>
   </url>
   
   <url>

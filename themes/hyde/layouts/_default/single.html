@@ -1,0 +1,19 @@
+{{ define "main" -}}
+<div class="header">
+	<!--
+  <h1>{{ .Site.Title | safeHTML }}</h1>
+-->
+  <img style="position: absolute; top: 24px; right: 34vw" src="/img/rfp-hdr.jpg" alt="peace dove" />
+</div>
+
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+  {{ .Content }}
+</div>
+
+{{ if .Site.DisqusShortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}

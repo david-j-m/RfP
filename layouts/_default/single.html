@@ -1,0 +1,17 @@
+{{ define "main" -}}
+<div class="header">
+  <h1>{{ .Site.Title | safeHTML }}</h1> 
+
+  <img style="position: absolute; top: 10px; right: 30vw" src="/img/dove.png" alt="rfp dove" />
+
+</div>
+<hr>
+<div class="post">
+  {{ .Content }}
+</div>
+
+{{ if .Site.DisqusShortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}

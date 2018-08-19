@@ -1,0 +1,43 @@
+<div class="sidebar">
+   <!-- <div class="container sidebar-sticky">  -->
+ <div class="container">
+    <div class="sidebar-about">
+      <!--
+      <a href="{{ .Site.BaseURL }}"><h2>{{ .Site.Title | safeHTML }}</h2></a>
+    -->
+    <h4><center>Content</center></h4>
+      <!--
+      <p class="lead">
+      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+    -->
+    </div>
+    <ul class="sidebar-nav">
+  <!--  Commented out Home item (below) - no home page at the moment
+    <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+   -->
+      {{ range .Site.Menus.main -}}
+        
+        <li>
+          <a href="{{.URL}}">{{ .Name }} </a></li>
+       
+      {{- end }}
+    </ul>
+    
+    <!-- below ul for checking types -->
+    <ul>
+{{range where (where .Site.AllPages "Type" "posts") "Kind" "page"}}
+  <li><a href="{{.URL | relURL}}">{{.Title}}</a></li>
+{{end}}
+</ul>
+<!--
+<nav class="sidebar-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+-->
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+  </div>
+</div>
